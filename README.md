@@ -5,7 +5,7 @@ Step by Step Tutorial of Setting up IAM within an IBM Cloud Account
 Setting up IAM & Migrating Services from Cloud Foundry to Resource Groups/ Provisioning New Service to Utilize RG:
 
 
-Best Practices brainstorming prior to IAM setup:
+Best Practices brainstorming prior to IAM setup:<br>
 •	Think about the project in your organization you wish to organize in the context of IAM.
 •	Think about the platform and infrastructure resources(users & services) you will use for this project
 •	Think about the region(s) you will deploy the environment/services
