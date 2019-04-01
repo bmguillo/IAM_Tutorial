@@ -6,11 +6,11 @@ Setting up IAM & Migrating Services from Cloud Foundry to Resource Groups/ Provi
 
 
 Best Practices brainstorming prior to IAM setup:<br>
-•	Think about the project in your organization you wish to organize in the context of IAM.
-•	Think about the platform and infrastructure resources(users & services) you will use for this project
-•	Think about the region(s) you will deploy the environment/services
-•	Think about the users who will need various levels of access to work on this project & their responsibilities
-•	Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, staging, testing, pre-production, production
+•	Think about the project in your organization you wish to organize in the context of IAM.<br>
+•	Think about the platform and infrastructure resources(users & services) you will use for this project<br>
+•	Think about the region(s) you will deploy the environment/services<br>
+•	Think about the users who will need various levels of access to work on this project & their responsibilities<br>
+•	Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, staging, testing, pre-production, production<br>
 
 
 Hints/ Tips:
