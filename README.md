@@ -29,7 +29,9 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/2.png)
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
+
 -	Access groups can be (devs, testers) 
+- Add users to assign to the access group
 -	Assign users
 -	Access policies
 
@@ -39,17 +41,11 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
-
-  
-Add users to assign to the access group
-   
- 
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/10.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11.png)
 
-Access policies
- 
 
-  
  
 
 
