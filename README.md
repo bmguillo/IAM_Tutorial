@@ -31,15 +31,18 @@
 -	Assign users
 -	Access policies
 
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/1.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/2.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/3.png)
 
- 
+
 
 
    
  
  
 
- 
+
 
 Add users to assign to the access group
    
