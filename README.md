@@ -37,24 +37,14 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/4.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/5.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6.png)
-   
-   
-
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
 
-
-
-
-   
- 
- 
-
-
-
+  
 Add users to assign to the access group
    
  
-
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9.png)
 
 Access policies
  
