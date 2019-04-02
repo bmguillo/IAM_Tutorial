@@ -25,15 +25,22 @@
 
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to developers
 
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/1.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/2.png)
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
 -	Access groups can be (devs, testers) 
 -	Assign users
 -	Access policies
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/1.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/2.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/3.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/4.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/5.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6.png)
+   
+   
+
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7.png)
 
 
 
