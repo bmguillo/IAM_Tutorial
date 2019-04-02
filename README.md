@@ -1,8 +1,6 @@
-# IAM_Tutorial
+# Step by Step Tutorial of Setting up IAM within an IBM Cloud Account
 
-Step by Step Tutorial of Setting up IAM within an IBM Cloud Account
-
-Setting up IAM & Migrating Services from Cloud Foundry to Resource Groups/ Provisioning New Service to Utilize RG:
+##Setting up IAM & Migrating Services from Cloud Foundry to Resource Groups/ Provisioning New Service to Utilize RG:
 
 
 Best Practices brainstorming prior to IAM setup:<br>
