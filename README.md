@@ -46,50 +46,41 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/12.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/13.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 
 
-
- 
-
-
-
- 
-
- 
-   
-
- 
-
-
-
-Let’s explore the old (console.ibm.com) vs. new cloud.ibm.com and migrate instances to RG or provision new instances using RG:
+### Let’s explore the old (console.ibm.com) vs. new cloud.ibm.com and migrate instances to RG or provision new instances using RG:
 
 
 1.	Provision new instances of a service utilizing RG
   
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/15.png)
 
 or 
 
-2.	Within the old console.ibm.com I have several CF Services that have the option to migrate to a RG  from the Dashboard
+2.	Within the old console.ibm.com I have several CF Services that have the option to migrate to a RG![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/16.png)  from the Dashboard
 
- 
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/17.png)
 
 3.	Let’s now take a look at the new console, cloud.ibm.com within the Dashboard click View Resources then click on Cloud Foundry Services & you should see the same migrate icon
  
- 
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/18.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/19.png) 
 
 
 
-4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon migrate to resource group   
+4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
 
 
 
 
-5.	Click continue on this menu 
+5.	Click continue on this menu ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/21.png)
 6.	Choose a resource group to migrate your service to then click migrate:  
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/22.png)
 7.	Click done on migrate successful popup message
- 
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23.png)
 8.	There is no longer a migrate icon next to the service instance in the resource list:
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/24.png)
  
 
 
