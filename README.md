@@ -44,6 +44,9 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/10.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/12.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/13.png)
+
 
 
  
