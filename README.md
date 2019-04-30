@@ -1,13 +1,23 @@
-# Step by Step Tutorial of Setting up IAM within an IBM Cloud Account
+# Step by Step Tutorial of Setting up IAM, Provisioning New IAM-Enabled Services & Exporting/Importing Data & Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account
 
-## Setting up IAM & Migrating Services from Cloud Foundry to Resource Groups/ Provisioning New Service to Utilize RG:
+## Reason for Migration:
+- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This involves enabling Identity and Access Management (IAM) and Resource Groups
 
 #### Best Practices brainstorming prior to IAM setup:<br>
 - Think about the project in your organization you wish to organize in the context of IAM.<br>
 - Think about the platform and infrastructure resources(users & services) you will use for this project<br>
 - Think about the region(s) you will deploy the environment/services<br>
 - Think about the users who will need various levels of access to work on this project & their responsibilities<br>
-- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, staging, testing, pre-production, production<br>
+- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing, staging, testing, production<br>
+
+#### Migration Path Order:<br>
+- Lite instances/services
+- Standard instances/services (non production)
+- Standard instances/services (production)*
+- Premium instances/services (non production)
+- Premium instances/services (production)*
+
+
 
 
 #### Hints/ Tips:
