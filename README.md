@@ -1,6 +1,8 @@
-# Step by Step Tutorial of Setting up IAM, Provisioning New IAM-Enabled Services & Exporting/Importing Data & Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account
+# IAM Step by Step Tutorial 
 
-## Reason for Migration:
+## Setting up IAM, Provisioning New IAM-Enabled Services & Exporting/Importing Data & Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account
+
+### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This involves enabling Identity and Access Management (IAM) and Resource Groups
 
 #### Best Practices brainstorming prior to IAM setup:<br>
@@ -12,17 +14,22 @@
 
 #### Migration Path Order:<br>
 - Lite instances/services
-- Standard instances/services (non production)
+- Standard instances/services (non production:development,testing,staging)
 - Standard instances/services (production)*
-- Premium instances/services (non production)
+- Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
 
+#### Code Refactoring Considerations:
+- Update the environment files with the new authentication(username/pw to api key), endpoints
+- Update the SDK to a new SDK that manages tokens.
+- Code changes to SOE to ingest new authentication.
+
+#### Best Practices:
+- If you do not already have an appropriate devOps pipeline style organization, it is recommended when setting up IAM.
 
 
-
-#### Hints/ Tips:
 - dev-project-CF space is the equivalent of dev-project-RG(Resource Group) logical grouping
-- RG replaces CF(Cloud Foundry) space 
+- RG replaces/maps to a  CF(Cloud Foundry) space 
 - Platform access: access for users to add to access policies, provision new instances, bind Cloudant; service access not            implemented yet e.g. change intents, , change name of services
 - CF Applications do not get migrated, only CF Services 
 - If you are on the Lite plan, you will have only one default RG called “default”
