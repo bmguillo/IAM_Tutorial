@@ -44,10 +44,10 @@
 
 
 
-### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to developers
+### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to users
 
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/1.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/2.png)
+
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
 
