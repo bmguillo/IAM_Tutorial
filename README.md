@@ -9,11 +9,9 @@
 [Parallel testing considerations](#parallel-testing-considerations)<br>
 [Prereq1 RG Creation and Assignment and Resource access](#prereq1-RG-creation-and-assignment-and-resource-access)<br>
 [Prereq2 Assign access within access group via access policies](#assign-access-within-access-group-via-access-policies)<br>
-[Path1 new IAM enabled instance provisioning](#new-iam-enabled-instance-provisioning)<br>
-
-
-* Provisioning New IAM-Enabled Services & Exporting/Importing Data 
-* Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
+[Path1 New IAM enabled instance provisioning](#new-iam-enabled-instance-provisioning)<br>
+[Path2 Migration of CF Services, CF Spaces to RG](#migration-of-CF-Services,-CF-Spaces-to-RG)<br>
+                     
 
 ### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is                                             aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
@@ -80,7 +78,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/assignrg&ratodev.png)
 
-### Path1 new IAM enabled instance provisioning:
+### Path1 New IAM enabled instance provisioning:
 
 ## Production Service Instances
 1.	Provision new instances of a service utilizing RG
@@ -98,6 +96,7 @@
 
 
 or 
+### Path2 Migration of CF Services, CF Spaces to RG     https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
 ## Non-Production Service Instances
 1.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
