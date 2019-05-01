@@ -60,9 +60,9 @@
 - Add users to assign to the access group
 -	Assign users to access policies
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/IAM.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/IAMchg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupchg.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreation.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreationchg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/addusers.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accesspolicies.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11chg.png)
