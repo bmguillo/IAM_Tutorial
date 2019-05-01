@@ -38,7 +38,7 @@
 - Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
 
-### Access Policy & Resource Group Considerations
+### Access Policy and Resource Group Considerations
 - Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
 - Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs https://cloud.ibm.com/docs/iam?topic=iam-userroles
 - can only have one instance/slot per RG
