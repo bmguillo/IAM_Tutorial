@@ -98,7 +98,7 @@ or
 4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
 
 5.	Choose a resource group to migrate your service to then click migrate:  
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/22.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/watsonassistantmigrate.png)
 6.	Click done on migrate successful popup message
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23.png)
 7.	There is no longer a migrate icon next to the service instance in the resource list:
