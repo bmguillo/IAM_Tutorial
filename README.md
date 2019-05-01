@@ -1,9 +1,9 @@
 # IAM Step by Step Tutorial - Watson Assistant
 
 ## Table of Contents
-[Reason for Migration](#reason-for-migration)
-[Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)Best Practices brainstorming prior to IAM setup
-* Migration Path Order(Recommended)
+[Reason for Migration](#reason-for-migration)<br>
+[Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)<br>
+[Migration Path Order(Recommended)](#migration-path-order-(recommended)<br>
 * Access Policy/Resource Group Considerations
 * Code refactoring considerations prior to migration
 * Parallel testing considerations
