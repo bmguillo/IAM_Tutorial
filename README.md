@@ -72,17 +72,27 @@
 
 ### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
 
+## Production Service Instances
 
 1.	Provision new instances of a service utilizing RG
   
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv1.png)
+
+2.	Create new Watson Assistant(s) & skill(s)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv2.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv3.png)
 
-2.   Export workspace JSON from old CF service instance / Import JSON into new service instance
+3. Export skill JSON from old CF service(Watson Assistant) & Import into new IAM-enabled RG service(Watson Assistant)
+
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv4.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv5.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv6.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv7.png)
+
 
 or 
 
+## Non-Production Service Instances
 
 3.	Within cloud.ibm.com within the Dashboard click View Resources then click on Cloud Foundry Services & you should see the migrate icon
  
