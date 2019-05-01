@@ -8,35 +8,37 @@
 ### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This involves enabling Identity and Access Management (IAM) and Resource Groups
 
-#### Best Practices brainstorming prior to IAM setup:<br>
+### Best Practices brainstorming prior to IAM setup:<br>
 - Think about the project in your organization you wish to organize in the context of IAM.<br>
 - Think about the platform and infrastructure resources(users & services) you will use for this project<br>
 - Think about the region(s) you will deploy the environment/services<br>
 - Think about the users who will need various levels of access to work on this project & their responsibilities<br>
 - Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing, staging, testing, production<br>
 
-#### Migration Path Order:<br>
-- Lite instances/services
+### Migration Path Order(Recommended):<br>
+- Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
 - Standard instances/services (non production:development,testing,staging)
 - Standard instances/services (production)*
 - Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
 
-#### Code Refactoring Considerations:
-- Update the environment files with the new authentication(username/pw to api key), endpoints
+### Code Refactoring Considerations Prior to Migration:
+- Update the environment files with the new authentication(username/pw to api key and workspace id/skill id), endpoints
 - Update the SDK to a new SDK that manages tokens.
 - Code changes to SOE to ingest new authentication.
 
-#### Best Practices:
-- If you do not already have an appropriate devOps pipeline style organization, it is recommended when setting up IAM.
+### Best Practices:
+- If you do not already have an appropriate DevOps pipeline style organization/naming convention for CF services, it is recommended when setting up IAM.
+   * CF space to RG replacement/mapping: projectname-dev-CF --> projectname-dev-RG
+   * projectname-dev-RG, projectname-testing-RG, projectname-staging-RG, projectname-production-RG
+   * this will ensure isolation so no mistaken what environment the users are working in
+   * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),          testers(users only have access to test resources), but you can assign a user to multiple access groups
+ 
 
-
-- dev-project-CF space is the equivalent of dev-project-RG(Resource Group) logical grouping
-- RG replaces/maps to a  CF(Cloud Foundry) space 
 - Platform access: access for users to add to access policies, provision new instances, bind Cloudant; service access not            implemented yet e.g. change intents, , change name of services
 - CF Applications do not get migrated, only CF Services 
-- If you are on the Lite plan, you will have only one default RG called “default”
-- Resource groups: The Services you want a specific set of users(access group) to all have access to. You set up your access group, define a policy for it and all the users obtain access at once.
+
+Resource groups: The Services you want a specific set of users(access group) to all have access to. You set up your access group, define a policy for it and all the users obtain access at once.
 - Access group: specific set of users
 - Only the account owner can create resource groups and administrators can create access groups
 - Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
@@ -72,9 +74,11 @@
 ### Let’s explore the old (console.ibm.com) vs. new cloud.ibm.com and migrate instances to RG or provision new instances using RG:
 
 
-1.	Provision new instances of a service utilizing RG
+1.a	Provision new instances of a service utilizing RG
   
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/15.png)
+
+1.b   Export workspace JSON from old CF service instance / Import JSON into new service instance
 
 or 
 
