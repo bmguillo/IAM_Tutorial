@@ -100,7 +100,7 @@ or
 5.	Choose a resource group to migrate your service to then click migrate:  
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/22.png)
 6.	Click done on migrate successful popup message
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23.png)
 7.	There is no longer a migrate icon next to the service instance in the resource list:
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/24..png)
  
