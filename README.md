@@ -7,8 +7,8 @@
 [Access Policy and  Resource Group Considerations](#access-policy-and-resource-group-considerations)<br>
 [Code refactoring considerations prior to migration](#code-refactoring-considerations-prior-to-migration)<br>
 [Parallel testing considerations](#parallel-testing-considerations)<br>
-[Prereq1: RG Creation and Assignment and Resource access](#prereq1:-RG-creation-and-assignment-and-resource-access)<br>
-* Pre-requisite #1: Setting up IAM Access Groups & Resource Groups
+[Prereq1 RG Creation and Assignment and Resource access](#prereq1-RG-creation-and-assignment-and-resource-access)<br>
+
 * Pre-requisite #2: Assign access within access group via access policies for the team
 * Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
@@ -60,7 +60,7 @@
 
 ## Step by Step Walkthrough of IAM Process in IBM Cloud
 
-### Prereq1: RG Creation and Assignment and Resource access
+### Prereq1 RG Creation and Assignment and Resource access
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupchg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupcreationchg.png)
 
