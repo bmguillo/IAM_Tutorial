@@ -1,7 +1,7 @@
 # IAM Step by Step Tutorial - Watson Assistant
 
-## Discussion Points
-* Reason for Migration
+## Table of Contents
+##### Reason for Migration
 * Best Practices brainstorming prior to IAM setup
 * Migration Path Order(Recommended)
 * Access Policy/Resource Group Considerations
@@ -13,7 +13,7 @@
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
-### Reason for Migration:
+[Reason for Migration](#reason-for-migration)### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is                                             aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
 
 ### Best Practices brainstorming prior to IAM setup:<br>
