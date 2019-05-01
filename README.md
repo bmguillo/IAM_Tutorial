@@ -56,7 +56,9 @@
 -	Assign users
 -	Access policies
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/3.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/IAM.png)
+
+
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/4.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/5.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6.png)
