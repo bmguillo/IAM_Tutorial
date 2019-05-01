@@ -4,7 +4,7 @@
 [Reason for Migration](#reason-for-migration)<br>
 [Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)<br>
 [Recommended Migration Path Order](#recommended-migration-path-order)<br>
-[Access Policy/Resource Group Considerations](#access-policy/resource-group-considerations)<br>
+[Access Policy & Resource Group Considerations](#access-policy-&-resource-group-considerations)<br>
 * Code refactoring considerations prior to migration
 * Parallel testing considerations
 * Pre-requisite #1: Setting up IAM Access Groups & Resource Groups
@@ -38,7 +38,7 @@
 - Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
 
-### Access Policy/Resource Group Considerations
+### Access Policy & Resource Group Considerations
 - Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
 - Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs https://cloud.ibm.com/docs/iam?topic=iam-userroles
 - can only have one instance/slot per RG
