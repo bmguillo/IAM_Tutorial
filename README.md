@@ -13,7 +13,7 @@
 - Think about the platform and infrastructure resources(users & services) you will use for this project<br>
 - Think about the region(s) you will deploy the environment/services<br>
 - Think about the users who will need various levels of access to work on this project & their responsibilities<br>
-- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing,       staging, testing, production<br>
+- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing,       staging, production<br>
 
 ### Migration Path Order(Recommended):<br>
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
