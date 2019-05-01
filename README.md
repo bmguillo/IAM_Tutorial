@@ -5,8 +5,8 @@
 [Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)<br>
 [Recommended Migration Path Order](#recommended-migration-path-order)<br>
 [Access Policy and  Resource Group Considerations](#access-policy-and-resource-group-considerations)<br>
-* Code refactoring considerations prior to migration
-* Parallel testing considerations
+[Code refactoring considerations prior to migration](#code-refactoring-considerations-prior-to-migration)<br>
+[Parallel testing considerations](#parallel-testing-considerations)<br>
 * Pre-requisite #1: Setting up IAM Access Groups & Resource Groups
 * Pre-requisite #2: Assign access within access group via access policies for the team
 * Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM
