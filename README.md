@@ -89,7 +89,7 @@
 
 or 
 
-## Non-Production Service Instances
+## Non-Production Service Instances - CF instance becames an alias pointing to the IAM-enabled instance
 
 3.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
  
@@ -97,13 +97,9 @@ or
 
 4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
 
-5.	Choose a resource group to migrate your service to then click migrate:  
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/22.png)
-6.	Click done on migrate successful popup message
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23..png)
-7.	There is no longer a migrate icon next to the service instance in the resource list:
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/24..png)
- 
+5.	Choose a resource group to migrate your service to then click migrate and click done on migrate successful popup, service should now be found under "Services" and should not have a migrate icon
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23.png)
+
 
 
 
