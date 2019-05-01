@@ -65,6 +65,7 @@
 
    
 ### Prereq2 Assign access within access group via access policies
+
 -	Access groups can be (developers, testers) 
 - Add users to assign to the access group
 -	Assign users to access policies
