@@ -4,7 +4,7 @@
 [Reason for Migration](#reason-for-migration)<br>
 [Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)<br>
 [Recommended Migration Path Order](#recommended-migration-path-order)<br>
-[Access Policy & Resource Group Considerations](#access-policy-&-resource-group-considerations)<br>
+[Access Policy and  Resource Group Considerations](#access-policy-and-resource-group-considerations)<br>
 * Code refactoring considerations prior to migration
 * Parallel testing considerations
 * Pre-requisite #1: Setting up IAM Access Groups & Resource Groups
