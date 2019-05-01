@@ -1,6 +1,15 @@
 # IAM Step by Step Tutorial - Watson Assistant
 
-* Setting up IAM Access Groups & Resource Groups
+## Discussion Points
+* Reason for Migration
+* Best Practices brainstorming prior to IAM setup
+* Migration Path Order(Recommended)
+* Access Policy/Resource Group Considerations
+* Code refactoring considerations prior to migration
+* Parallel testing considerations
+* Pre-requisite #1: Setting up IAM Access Groups & Resource Groups
+* Pre-requisite #2: Assign access within access group via access policies for the team
+* Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
