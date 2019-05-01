@@ -51,8 +51,8 @@
 ## Step by Step Walkthrough of IAM Process in IBM Cloud
 
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to users
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroup.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupcreation.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupchg.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupcreationchg.png)
 
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
