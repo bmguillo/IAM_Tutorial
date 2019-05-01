@@ -13,7 +13,15 @@
 - Think about the platform and infrastructure resources(users & services) you will use for this project<br>
 - Think about the region(s) you will deploy the environment/services<br>
 - Think about the users who will need various levels of access to work on this project & their responsibilities<br>
-- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing,       staging, production<br>
+- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing,                                                                             staging, production<br>
+- If you do not already have an appropriate DevOps pipeline style organization/naming convention for CF services, it is                             recommended when setting up IAM.
+   * CF space to RG replacement/mapping: projectname-dev-CF --> projectname-dev-RG
+   * projectname-dev-RG, projectname-testing-RG, projectname-staging-RG, projectname-production-RG
+   * this will ensure isolation so no mistaken what environment the users are working in
+   * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),                                           testers(users only have access to test resources), but you can assign a user to multiple access groups
+- Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
+
+
 
 ### Migration Path Order(Recommended):<br>
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
@@ -27,22 +35,19 @@
 ### Access Policy/Resource Group Considerations
 - Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
 - Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs https://cloud.ibm.com/docs/iam?topic=iam-userroles
+- can only have one instance/slot per RG
 - Only the account owner can create resource groups and administrators can create access groups
 - Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
-
 
 ### Code Refactoring Considerations Prior to Migration:
 - Update the environment files with the new authentication(username/pw to api key and workspace id/skill id), endpoints
 - Update the SDK to a new SDK that manages tokens.
 - Code changes to SOE to ingest new authentication.
 
-### Best Practices:
-- If you do not already have an appropriate DevOps pipeline style organization/naming convention for CF services, it is recommended when setting up IAM.
-   * CF space to RG replacement/mapping: projectname-dev-CF --> projectname-dev-RG
-   * projectname-dev-RG, projectname-testing-RG, projectname-staging-RG, projectname-production-RG
-   * this will ensure isolation so no mistaken what environment the users are working in
-   * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),          testers(users only have access to test resources), but you can assign a user to multiple access groups
-- Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
+### Parallel Testing Considerations
+- Create a from(state) --> to(state) diagram to communicate to stakeholders what has been completed, what is left to be                                           completed
+- Each step of the process (code refactoring step, migration of non prod instance 1 etc. ) should be tested & assess before continuing on with the process
+- CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon, should be able to test both CF credentials and IAM
 
 
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to users
@@ -84,7 +89,7 @@
 
 or 
 
-## Non-Production Service Instances - CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon
+## Non-Production Service Instances
 3.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/watsonassistantmigrate.png)
 
