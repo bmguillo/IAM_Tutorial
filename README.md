@@ -60,9 +60,9 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/IAM.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroup.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreation.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/addusers.png)
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9..png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/10..png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11..png)
