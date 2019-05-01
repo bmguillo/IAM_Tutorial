@@ -67,8 +67,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/assignrg&ratodev.png)
 
 test
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/13.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 
 
 ### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
