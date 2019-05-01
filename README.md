@@ -10,7 +10,7 @@
 [Prereq1 RG Creation and Assignment and Resource access](#prereq1-RG-creation-and-assignment-and-resource-access)<br>
 [Prereq2 Assign access within access group via access policies](#assign-access-within-access-group-via-access-policies)<br>
 [Path1 New IAM enabled instance provisioning](#new-iam-enabled-instance-provisioning)<br>
-[Path2 Migration of CF Services, CF Spaces to RG](#migration-of-CF-Services,-CF-Spaces-to-RG)<br>
+[Path2 Migration of CF Services, CF Spaces to RG](#migration-of-cf-services,-cf-spaces-to-rg)<br>
                      
 
 ### Reason for Migration:
@@ -65,7 +65,6 @@
 
    
 ### Prereq2 Assign access within access group via access policies
-
 -	Access groups can be (developers, testers) 
 - Add users to assign to the access group
 -	Assign users to access policies
