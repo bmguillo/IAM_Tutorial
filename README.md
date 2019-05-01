@@ -85,7 +85,6 @@ or
 3.	Within cloud.ibm.com within the Dashboard click View Resources then click on Cloud Foundry Services & you should see the migrate icon
  
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/18.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/19.png) 
 
 
 
