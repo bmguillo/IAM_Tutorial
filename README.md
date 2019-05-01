@@ -3,7 +3,7 @@
 ## 
 * Setting up IAM Access Groups & Resource Groups
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
-* Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account
+* Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud           Accounthttps://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
 ### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is         aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
