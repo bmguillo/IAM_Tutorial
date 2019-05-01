@@ -1,9 +1,9 @@
-# IAM Step by Step Tutorial 
+# IAM Step by Step Tutorial - Watson Assistant
 
 ## 
 * Setting up IAM Access Groups & Resource Groups
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
-* Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud           Accounthttps://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
+* Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
 ### Reason for Migration:
 - Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is         aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
@@ -19,6 +19,8 @@
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
 - Standard instances/services (non production:development,testing,staging)
 - Standard instances/services (production)*
+- Plus instances/services (non production:development,testing,staging)
+- Plus instances/services (production)*
 - Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
 
@@ -43,16 +45,12 @@
 - Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
 
 
-
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to users
-
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroup.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupcreation.png)
 
-
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
-
 -	Access groups can be (developers, testers) 
 - Add users to assign to the access group
 -	Assign users to access policies
@@ -70,9 +68,7 @@
 ### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
 
 ## Production Service Instances
-
 1.	Provision new instances of a service utilizing RG
-  
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv1.png)
 
 2.	Create new Watson Assistant(s) & skill(s)
@@ -80,7 +76,6 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv3.png)
 
 3. Export skill JSON from old CF service(Watson Assistant) & Import into new IAM-enabled RG service(Watson Assistant)
-
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv4.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv5.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv6.png)
@@ -90,9 +85,7 @@
 or 
 
 ## Non-Production Service Instances - CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon
-
 3.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
- 
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/watsonassistantmigrate.png)
 
 4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
