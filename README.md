@@ -89,7 +89,7 @@
 
 or 
 
-## Non-Production Service Instances - CF instance becames an alias pointing to the IAM-enabled instance
+## Non-Production Service Instances - CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon
 
 3.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
  
