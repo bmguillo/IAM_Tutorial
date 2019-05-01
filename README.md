@@ -75,7 +75,9 @@
 
 1.	Provision new instances of a service utilizing RG
   
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/15.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv1.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv2.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv3.png)
 
 2.   Export workspace JSON from old CF service instance / Import JSON into new service instance
 
