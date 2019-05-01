@@ -3,7 +3,7 @@
 ## Table of Contents
 [Reason for Migration](#reason-for-migration)<br>
 [Best Practices brainstorming prior to IAM setup](#best-practices-brainstorming-prior-to-iam-setup)<br>
-[Migration Path Order(Recommended)](#migration-path-order-(recommended))<br>
+[Recommended Migration Path Order](#recommended-migration-path-order)<br>
 [Access Policy/Resource Group Considerations](#access-policy/resource-group-considerations)<br>
 * Code refactoring considerations prior to migration
 * Parallel testing considerations
@@ -29,7 +29,7 @@
    * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),                                           testers(users only have access to test resources), but you can assign a user to multiple access groups
 - Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
 
-### Migration Path Order(Recommended):<br>
+### Recommended Migration Path Order:<br>
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
 - Standard instances/services (non production:development,testing,staging)
 - Standard instances/services (production)*
