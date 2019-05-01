@@ -9,8 +9,9 @@
 [Parallel testing considerations](#parallel-testing-considerations)<br>
 [Prereq1 RG Creation and Assignment and Resource access](#prereq1-RG-creation-and-assignment-and-resource-access)<br>
 [Prereq2 Assign access within access group via access policies](#assign-access-within-access-group-via-access-policies)<br>
+[Path1 new IAM enabled instance provisioning](#new-iam-enabled-instance-provisioning)<br>
 
-* Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM
+
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
@@ -79,7 +80,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/assignrg&ratodev.png)
 
-### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
+### Path1 new IAM enabled instance provisioning:
 
 ## Production Service Instances
 1.	Provision new instances of a service utilizing RG
