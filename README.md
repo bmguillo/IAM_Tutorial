@@ -98,7 +98,10 @@ or
 4.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
 
 5.	Choose a resource group to migrate your service to then click migrate and click done on migrate successful popup, service should now be found under "Services" and should not have a migrate icon
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/23.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate1.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate2.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate3.png)
+
 
 
 
