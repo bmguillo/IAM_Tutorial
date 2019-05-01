@@ -8,8 +8,8 @@
 [Code refactoring considerations prior to migration](#code-refactoring-considerations-prior-to-migration)<br>
 [Parallel testing considerations](#parallel-testing-considerations)<br>
 [Prereq1 RG Creation and Assignment and Resource access](#prereq1-RG-creation-and-assignment-and-resource-access)<br>
+[Prereq2 Assign access within access group via access policies](#assign-access-within-access-group-via-access-policies)<br>
 
-* Pre-requisite #2: Assign access within access group via access policies for the team
 * Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
@@ -65,7 +65,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroupcreationchg.png)
 
    
-### Pre-req2: Assign access within access group via access policies for the team
+### Prereq2 Assign access within access group via access policies
 -	Access groups can be (developers, testers) 
 - Add users to assign to the access group
 -	Assign users to access policies
