@@ -51,7 +51,7 @@
    
 ### Pre-requisite #2: Assign access within access group via access policies for the team
 
--	Access groups can be (devs, testers) 
+-	Access groups can be (developers, testers) 
 - Add users to assign to the access group
 -	Assign users
 -	Access policies
@@ -61,15 +61,15 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreation.png)
 
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/10.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/12.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/13.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/6..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/7..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/9..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/10..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/12..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/13..png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14..png)
 
 
 ### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
