@@ -64,7 +64,6 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroup.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreation.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/addusers.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accesspolicies.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11chg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
