@@ -6,14 +6,14 @@
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account
 
 ### Reason for Migration:
-- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This involves enabling Identity and Access Management (IAM) and Resource Groups
+- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is         aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
 
 ### Best Practices brainstorming prior to IAM setup:<br>
 - Think about the project in your organization you wish to organize in the context of IAM.<br>
 - Think about the platform and infrastructure resources(users & services) you will use for this project<br>
 - Think about the region(s) you will deploy the environment/services<br>
 - Think about the users who will need various levels of access to work on this project & their responsibilities<br>
-- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing, staging, testing, production<br>
+- Think about DevOps architecture patterns, delivery & sample environments you will need such as: development, testing,       staging, testing, production<br>
 
 ### Migration Path Order(Recommended):<br>
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
@@ -21,6 +21,13 @@
 - Standard instances/services (production)*
 - Premium instances/services (non production:development, testing,staging)
 - Premium instances/services (production)*
+
+### Access Policy/Resource Group Considerations
+- Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
+- Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs
+- Only the account owner can create resource groups and administrators can create access groups
+- Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
+
 
 ### Code Refactoring Considerations Prior to Migration:
 - Update the environment files with the new authentication(username/pw to api key and workspace id/skill id), endpoints
@@ -33,16 +40,8 @@
    * projectname-dev-RG, projectname-testing-RG, projectname-staging-RG, projectname-production-RG
    * this will ensure isolation so no mistaken what environment the users are working in
    * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),          testers(users only have access to test resources), but you can assign a user to multiple access groups
- 
+- Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
 
-- Platform access: access for users to add to access policies, provision new instances, bind Cloudant; service access not            implemented yet e.g. change intents, , change name of services
-- CF Applications do not get migrated, only CF Services 
-
-Resource groups: The Services you want a specific set of users(access group) to all have access to. You set up your access group, define a policy for it and all the users obtain access at once.
-- Access group: specific set of users
-- Only the account owner can create resource groups and administrators can create access groups
-- Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
-- There is a github to report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant: https://github.ibm.com/Bluemix/core-dev/issues/7651
 
 
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to developers
