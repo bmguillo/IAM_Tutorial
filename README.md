@@ -1,12 +1,11 @@
 # IAM Step by Step Tutorial - Watson Assistant
 
-## 
 * Setting up IAM Access Groups & Resource Groups
 * Provisioning New IAM-Enabled Services & Exporting/Importing Data 
 * Migration of Services from Cloud Foundry Orgs/Spaces to Resource Groups within an IBM Cloud Account                         https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
 
 ### Reason for Migration:
-- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is         aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
+- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is                                             aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
 
 ### Best Practices brainstorming prior to IAM setup:<br>
 - Think about the project in your organization you wish to organize in the context of IAM.<br>
@@ -20,8 +19,6 @@
    * this will ensure isolation so no mistaken what environment the users are working in
    * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),                                           testers(users only have access to test resources), but you can assign a user to multiple access groups
 - Report issues with PUP and specifically there is an issue with missing migration icons for some services like Cloudant:      https://github.ibm.com/Bluemix/core-dev/issues/7651 
-
-
 
 ### Migration Path Order(Recommended):<br>
 - Lite instances/services(if you are on the Lite plan, you will have only one default RG called “default”)
@@ -45,10 +42,13 @@
 - Code changes to SOE to ingest new authentication.
 
 ### Parallel Testing Considerations
-- Create a from(state) --> to(state) diagram to communicate to stakeholders what has been completed, what is left to be                                           completed
+- Create a from(state) --> to(state) diagram to communicate to stakeholders what has been completed, what is left to be                                                                         completed
 - Each step of the process (code refactoring step, migration of non prod instance 1 etc. ) should be tested & assess before continuing on with the process
 - CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon, should be able to test both CF credentials and IAM
+- Switch users to the new IAM-enabled instances
+- Run CF/IAM enabled instances in parallel until behavior is expected then drain users off
 
+## Step by Step Walkthrough of IAM Process in IBM Cloud
 
 ### Pre-requisite #1: Create Resource Group(s) & Assign resource group & resource access to users
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/resourcegroup.png)
