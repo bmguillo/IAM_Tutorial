@@ -66,7 +66,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/addusers.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/8.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accesspolicies.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11chg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/assignrg&ratodev.png)
 
