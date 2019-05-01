@@ -61,7 +61,7 @@
 -	Assign users to access policies
 
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/IAM.png)
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroup.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupchg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accessgroupcreation.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/addusers.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/accesspolicies.png)
