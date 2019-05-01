@@ -70,22 +70,19 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 
 
-### Let’s explore the old (console.ibm.com) vs. new cloud.ibm.com and migrate instances to RG or provision new instances using RG:
+### Let’s explore cloud.ibm.com and provision new IAM-enabled instances(recommended path for production) and migrate non - prod instances to IAM:
 
 
-1.a	Provision new instances of a service utilizing RG
+1.	Provision new instances of a service utilizing RG
   
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/15.png)
 
-1.b   Export workspace JSON from old CF service instance / Import JSON into new service instance
+2.   Export workspace JSON from old CF service instance / Import JSON into new service instance
 
 or 
 
-2.	Within the old console.ibm.com I have several CF Services that have the option to migrate to a RG & - CF Applications do not get migrated, only CF Services ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/16.png)  from the Dashboard
 
-![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/17.png)
-
-3.	Let’s now take a look at the new console, cloud.ibm.com within the Dashboard click View Resources then click on Cloud Foundry Services & you should see the same migrate icon
+3.	Within cloud.ibm.com within the Dashboard click View Resources then click on Cloud Foundry Services & you should see the migrate icon
  
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/18.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/19.png) 
