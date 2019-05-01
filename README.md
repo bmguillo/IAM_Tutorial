@@ -24,7 +24,7 @@
 
 ### Access Policy/Resource Group Considerations
 - Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
-- Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs
+- Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs https://cloud.ibm.com/docs/iam?topic=iam-userroles
 - Only the account owner can create resource groups and administrators can create access groups
 - Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
 
@@ -81,7 +81,7 @@
 
 or 
 
-2.	Within the old console.ibm.com I have several CF Services that have the option to migrate to a RG![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/16.png)  from the Dashboard
+2.	Within the old console.ibm.com I have several CF Services that have the option to migrate to a RG & - CF Applications do not get migrated, only CF Services ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/16.png)  from the Dashboard
 
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/17.png)
 
