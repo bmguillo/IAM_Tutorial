@@ -80,8 +80,10 @@
 
 ### Path1 New IAM enabled instance provisioning:
 
+- Watson Assistant Premium users are allocated 1 premium slot which contain 30 instances. For every production Watson Assistant CF service instance create an equivalent IAM-enabled Watson Assistant service instance within the same resource group, then shift the data from the old to the new as instructed below:
+
 ## Production Service Instances
-1.	Provision new instances of a service utilizing RG
+1.	Provision new instances of Watson Assistant service utilizing RG
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv1.png)
 
 2.	Create new Watson Assistant(s) & skill(s)
