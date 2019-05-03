@@ -40,7 +40,7 @@
 
 ### Access Policy and Resource Group Considerations
 - Platform access for users to add to access policies, create a skill, provision new instances, bind services such as         Cloudant
-- Recommended to create an access group that contain a specific set of users so that you can assign the access                 group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g.   devs https://cloud.ibm.com/docs/iam?topic=iam-userroles
+- Recommended to [create an access group](https://cloud.ibm.com/docs/iam?topic=iam-userroles) that contain a specific set of users so that you can assign the access group(permissions) to the resource group which contain the resources you want them all to have access all at once to e.g. devs 
 - can only have one instance/slot per RG
 - Only the account owner can create resource groups and administrators can create access groups
 - Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
@@ -98,7 +98,7 @@
 or 
 ### Path2 Migration of CF Services    
 
-- CF Spaces to RG https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate
+- [CF Spaces to RG](https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate)
 
 ## Non-Production Service Instances
 1.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
