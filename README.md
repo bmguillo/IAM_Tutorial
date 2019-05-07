@@ -14,7 +14,7 @@
                      
 
 ### Reason for Migration:
-- Watson service use of the CF org/space access model is being deprecated on October 30, 2019.The IBM Watson Group is                                             aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This           involves enabling Identity and Access Management (IAM) and Resource Groups
+- Watson service use of the CF org/space access model is being deprecated on October 30, 2019. The Watson Assistant premium service instances must also be migrated by June 1, 2019. The IBM Watson Group is aligning with the larger IBM Cloud strategy for account organization and access control to service instances. This involves enabling Identity and Access Management (IAM) and Resource Groups
 
 ### Best Practices brainstorming prior to IAM setup:<br>
 - Think about the project in your organization you wish to organize in the context of IAM.<br>
@@ -96,8 +96,10 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv6.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv7.png)
 
+4. (premium only) Tell the WA Premium team what that new RG name and ID are for each instance via support ticket
 
 or 
+
 ### Path2 Migration of CF Services    
 
 - [CF Spaces to RG](https://cloud.ibm.com/docs/services/assistant?topic=watson-migrate)
@@ -113,7 +115,7 @@ or
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate2.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate3.png)
 
-
+4. (premium only) Tell the WA Premium team what that new RG name and ID are for each instance via support ticket
 
 
 
