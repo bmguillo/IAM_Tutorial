@@ -53,7 +53,7 @@
 ### Parallel Testing Considerations
 - Create a from(state) --> to(state) diagram to communicate to stakeholders what has been completed, what is left to be                                                                         completed
 - Each step of the process (code refactoring step, migration of non prod instance 1 etc. ) should be tested & assess before continuing on with the process
-- CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon, should be able to test both CF credentials and IAM
+- CF instance becames an alias pointing to the IAM-enabled instance indicated by chainlink icon, should be able to test both CF credentials(username/pw) and IAM(api key) until October 2019.
 - Switch users to the new IAM-enabled instances
 - Run CF/IAM enabled instances in parallel until behavior is expected then drain users off
 
