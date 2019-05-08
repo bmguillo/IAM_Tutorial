@@ -115,7 +115,7 @@ or
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate2.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate3.png)
 
-4. (premium only) Tell the WA Premium team what that new RG name and ID are for each instance via support ticket
+4. (premium only) Tell the WA Premium team what that new RG name and ID and region(if Dallas or Frankfurt) are for each instance via support ticket
 
 
 
