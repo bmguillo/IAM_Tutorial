@@ -44,6 +44,7 @@
 - can only have one instance/slot per RG
 - Only the account owner can create resource groups and administrators can create access groups
 - Resource Groups cannot be deleted because they are tied to billing and you also cannot change names
+- DO NOT BYPASS THIS STEP AND MIGRATE TO DEFAULT RESOURCE GROUP, CANNOT BE CHANGED LATER
 
 ### Code Refactoring Considerations Prior to Migration:
 - Update the environment files with the new authentication(username/pw to api key and workspace id/skill id), endpoints
