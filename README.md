@@ -30,7 +30,7 @@
  
 
 ### Recommended Migration Path Order:<br>
-- Lite instances/services(if you are on the Lite plan, you will have only one default RG)
+- Lite instances/services
 - Standard instances/services (non production:development,testing,staging)
 - Standard instances/services (production)*
 - Plus instances/services (non production:development,testing,staging)
@@ -97,7 +97,7 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv6.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/provnewserv7.png)
 
-4. (premium only) Tell the WA Premium team what that new RG name and ID are for each instance via support ticket
+4. (premium only) Tell the WA Premium team what that new RG name and ID region(if Dallas or Frankfurt) are for each instance via support ticket
 
 or 
 
