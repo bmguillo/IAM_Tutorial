@@ -78,6 +78,8 @@
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/11chg.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/14.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/assignrgtoaccessgroup.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/rolesdefined.png)
+
 
 ### Path1 New IAM enabled instance provisioning:
 
