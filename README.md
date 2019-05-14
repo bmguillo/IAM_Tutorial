@@ -27,8 +27,8 @@
    * projectname-dev-RG, projectname-testing-RG, projectname-staging-RG, projectname-production-RG
    * this will ensure isolation so no mistaken what environment the users are working in
    * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),                                           testers(users only have access to test resources), but you can assign a user to multiple access groups
- ![test](https://github.com/bmguillo/IAM Tutorial/blob/master/img/iam0.png)
-![test](https://github.com/bmguillo/IAM Tutorial/blob/master/img/iam1.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/iam0.png)
+![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/iam1.png)
 
 
 
