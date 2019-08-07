@@ -29,6 +29,7 @@
    * access groups: devs(users only have access to dev resources), operators(users only have access to prod resources),                                           testers(users only have access to test resources), but you can assign a user to multiple access groups
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/iam0.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/iam1.png)
+- For Premium there is not a 1 CF space to 1 RG correlation, you can only add services to 1 overall RG in premium
 
 
 
@@ -115,14 +116,16 @@ or
 1.	Within the IBM Cloud Dashboard click Cloud Foundry Services & you should see the migrate icon
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/watsonassistantmigrate.png)
 
-2.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
+2. (premium only) Tell the WA Premium team what that new RG name and ID and region(if Dallas or Frankfurt) are for each instance via support ticket
 
-3.	Choose a resource group to migrate your service to then click migrate and click done on migrate successful popup, service should now be found under "Services" and should not have a migrate icon
+3.	Click the Migrate link after hovering over Migrate icon or choose to utilize the breadcrumb icon--> migrate to resource group![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/20.png)   
+
+4.	Choose a resource group to migrate your service to then click migrate and click done on migrate successful popup, service should now be found under "Services" and should not have a migrate icon
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate1a.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate2.png)
 ![test](https://github.com/bmguillo/IAM_Tutorial/blob/master/img/migrate3.png)
 
-4. (premium only) Tell the WA Premium team what that new RG name and ID and region(if Dallas or Frankfurt) are for each instance via support ticket
+
 
 
 
